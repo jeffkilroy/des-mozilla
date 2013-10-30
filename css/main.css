@@ -83,3 +83,98 @@ body{
 #main {
 	background-color: #FFF;
 }
+#sidebar {
+	float: left;
+	width: 200px;
+	padding: 5px;
+}
+#content {
+	float: left;
+	width: 750px;
+	padding: 5px;
+}
+#sidebar h2 {
+	background-image: url(../images/bg_left_title.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding: 0px;
+	height: 40px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: normal;
+	color: #0b2236;
+}
+#sidebar h2 div {
+	line-height: 40px;
+	background-image: url(../images/bg_left_firefox.png);
+	height: 40px;
+	background-repeat: no-repeat;
+	background-position: 8px center;
+	padding-left: 46px;
+}
+#sidebar h2.thunderbird div {
+	background-image: url(../images/bg_left_thunderbird.png);
+}
+#sidebar ul {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+#sidebar li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#sidebar ul a {
+	font-size: 14px;
+	color: #0b2236;
+	text-decoration: none;
+	display: block;
+	margin: 0px;
+	padding: 5px;
+}
+#sidebar ul a:hover {
+	background-image: url(../images/bg_col_left_over.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 16px;
+}
+#content h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-weight: normal;
+	color: #0b2236;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+#footer {
+	font-size: 11px;
+	color: #6595a5;
+	text-align: right;
+}
+table {
+	background-color: #DDD;
+}
+table th {
+	color: #FFF;
+	background-color: #333;
+}
+form .field {
+	margin-bottom: 5px;
+}
+form label {
+	font-weight: bold;
+	display: block;
+}
+form .texfield, form textarea, form select {
+	border: 1px solid #09C;
+}
