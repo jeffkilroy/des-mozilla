@@ -175,6 +175,6 @@ form label {
 	font-weight: bold;
 	display: block;
 }
-form .texfield, form textarea, form select {
+form .textfield, form textarea, form select {
 	border: 1px solid #09C;
 }
